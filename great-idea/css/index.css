@@ -275,15 +275,15 @@ main {
 	color: white;
 }
 
-.feature-about {
+.border-top {
 	border-top: 1px solid black;
 	padding-top: 50px;
-	display: flex;
 	margin-top: 70px;
-
 }
 
-.col-half {}
+section {
+	display: flex;
+}
 
 .info {
 
@@ -297,10 +297,6 @@ main {
 .col-third {
 	display: inline-block;
 	width: 288px;
-}
-
-footer hr {
-	margin-top: 50px;
 }
 
 .copy {
