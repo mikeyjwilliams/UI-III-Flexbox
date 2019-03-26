@@ -294,11 +294,6 @@ section {
 	margin: 45px 0;
 }
 
-.col-third {
-	display: inline-block;
-	width: 288px;
-}
-
 .copy {
 	padding-bottom: 120px;
 	margin-top: 60px;
@@ -308,6 +303,10 @@ section {
 address {
 	/* stretch goal*/
 	font-family: 'Merriweather', serif;
+}
+
+address p {
+	line-height: 1.4em;
 }
 
 address a {
