@@ -235,10 +235,6 @@ a {
 	text-decoration: none;
 }
 
-header nav a:first-child {
-	margin-left: 0;
-}
-
 main {
 	margin-top: 150px;
 }
