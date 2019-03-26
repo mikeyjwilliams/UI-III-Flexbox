@@ -209,6 +209,10 @@ hr {
 	padding-top: 30px;
 }
 
+p {
+	line-height: 1.1em;
+}
+
 /** end globals **/
 
 header {
