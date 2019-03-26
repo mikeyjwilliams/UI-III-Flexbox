@@ -358,4 +358,7 @@ address a {
 	padding: 8px 35px;
 }
 
-.bottom-section {}
+.bottom-section {
+	border-top: 2px solid black;
+	padding-top: 40px;
+}
