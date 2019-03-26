@@ -201,6 +201,10 @@ hr {
 	margin-bottom: 35px;
 }
 
+.thin-br {
+	border-top: 1px solid black;
+}
+
 /** end globals **/
 
 header {
@@ -271,10 +275,9 @@ main {
 	color: white;
 }
 
-.border-top {
-	border-top: 1px solid black;
+.class {
 	padding-top: 50px;
-	margin-top: 70px;
+	/* margin-top: 70px; */
 }
 
 section {
@@ -332,7 +335,7 @@ address a {
 }
 
 .service-box {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	background-color: #F4F3F4;
 	margin-bottom: 40px;
 	padding: 25px;
@@ -348,6 +351,4 @@ address a {
 	padding: 8px 35px;
 }
 
-.bottom-section {
-	border-top: 2px solid black;
-}
+.bottom-section {}
