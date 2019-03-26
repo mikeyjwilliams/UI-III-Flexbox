@@ -320,3 +320,11 @@ address a {
 .services h2 {
 	font-size: 28px;
 }
+
+/***  services boxes design ***/
+.service-box {
+	/** !!!! DEBUG RM BEFORE PULL REQUEST LINE 325 and 326  !!!! **/
+	border: 1px solid red;
+
+	background-color: #F4F3F4;
+}
