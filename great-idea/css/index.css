@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/** globals **/
+
 html {
 	box-sizing: border-box;
 }
@@ -92,6 +94,8 @@ html {
 hr {
 	margin-bottom: 35px;
 }
+
+/** end globals **/
 
 header {
 	background-color: cornsilk;
