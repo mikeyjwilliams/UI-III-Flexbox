@@ -276,16 +276,17 @@ main {
 }
 
 .feature-about {
+	border-top: 1px solid black;
+	padding-top: 50px;
+	display: flex;
 	margin-top: 70px;
+
 }
 
-.col-half {
-
-	width: 433px;
-	vertical-align: top;
-}
+.col-half {}
 
 .info {
+
 	padding: 0 5px 5px 5px;
 }
 
