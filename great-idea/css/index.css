@@ -205,6 +205,10 @@ hr {
 	border-top: 1px solid black;
 }
 
+.pad {
+	padding-top: 30px;
+}
+
 /** end globals **/
 
 header {
@@ -249,11 +253,6 @@ main {
 	vertical-align: text-bottom;
 }
 
-.top-section {
-	/** flex on section element. **/
-	justify-content: space-around;
-}
-
 .main-focus {
 	padding: 60px;
 }
@@ -275,15 +274,19 @@ main {
 	color: white;
 }
 
-.class {
-	padding-top: 50px;
-	/* margin-top: 70px; */
-}
-
 section {
 	display: flex;
 	align-content: space-between;
 }
+
+.top-section {
+	padding-bottom: 70px;
+	/** section flex item **/
+	align-items: center;
+	justify-content: space-around;
+}
+
+
 
 .info {
 	padding: 0 10px;
@@ -291,6 +294,10 @@ section {
 
 .middle-img {
 	margin: 45px 0;
+}
+
+.bottom-content {
+	padding-bottom: 30px;
 }
 
 .copy {
