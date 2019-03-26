@@ -276,7 +276,7 @@ main {
 
 section {
 	display: flex;
-	align-content: space-between;
+	/* align-content: space-between; */
 }
 
 .top-section {
@@ -361,4 +361,19 @@ address a {
 .bottom-section {
 	border-top: 2px solid black;
 	padding-top: 40px;
+	justify-content: space-between;
+}
+
+.facts {
+	width: 50%;
+}
+
+ul {
+	padding-top: 15px;
+	padding-left: 17px;
+}
+
+li {
+	list-style-type: square;
+	line-height: 1.6em;
 }
