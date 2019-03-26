@@ -249,10 +249,9 @@ main {
 	vertical-align: text-bottom;
 }
 
-.col-half {
-	display: inline-block;
-	width: 433px;
-	vertical-align: top;
+.top-section {
+	display: flex;
+	justify-content: center;
 }
 
 .main-focus {
@@ -271,8 +270,19 @@ main {
 	margin-left: 80px;
 }
 
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+
 .feature-about {
 	margin-top: 70px;
+}
+
+.col-half {
+
+	width: 433px;
+	vertical-align: top;
 }
 
 .info {
