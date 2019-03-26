@@ -321,10 +321,21 @@ address a {
 	font-size: 28px;
 }
 
-/***  services boxes design ***/
+/***  services boxes design and layout ***/
+.services-descriptions {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 40px;
+}
+
 .service-box {
-	/** !!!! DEBUG RM BEFORE PULL REQUEST LINE 325 and 326  !!!! **/
-	border: 1px solid red;
+
+	border: 1px solid black;
 
 	background-color: #F4F3F4;
+	margin-bottom: 40px;
+	width: 45%;
 }
