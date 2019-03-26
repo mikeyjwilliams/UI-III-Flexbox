@@ -358,6 +358,11 @@ address a {
 	padding: 8px 35px;
 }
 
+button.cta:hover {
+	background-color: black;
+	color: white;
+}
+
 .bottom-section {
 	border-top: 2px solid black;
 	padding-top: 40px;
