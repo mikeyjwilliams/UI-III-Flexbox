@@ -260,7 +260,7 @@ main {
 }
 
 .btn {
-	border: 1px solid black;
+	border: 2px solid black;
 	padding: 5px 30px;
 	background-color: white;
 	margin-left: 80px;
@@ -346,4 +346,8 @@ address a {
 	font-size: 12px;
 	margin: 25px 0 0;
 	padding: 8px 35px;
+}
+
+.bottom-section {
+	border-top: 2px solid black;
 }
