@@ -246,8 +246,8 @@ main {
 }
 
 .top-section {
-	display: flex;
-	justify-content: center;
+	/** flex on section element. **/
+	justify-content: space-around;
 }
 
 .main-focus {
