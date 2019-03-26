@@ -283,11 +283,11 @@ main {
 
 section {
 	display: flex;
+	align-content: space-between;
 }
 
 .info {
-
-	padding: 0 5px 5px 5px;
+	padding: 0 10px;
 }
 
 .middle-img {
