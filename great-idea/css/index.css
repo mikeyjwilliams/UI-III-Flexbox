@@ -3,87 +3,19 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -91,298 +23,44 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 body {
 	line-height: 1;
 }
-
-ol,
-ul {
+ol, ul {
 	list-style: none;
 }
-
-blockquote,
-q {
+blockquote, q {
 	quotes: none;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
 	content: '';
 	content: none;
 }
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
-
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html,
-body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-* {
-	box-sizing: border-box;
-}
-
-html,
-body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
-}
-
-/* Your code starts here! */
-
-/** globals **/
-
-html {
-	box-sizing: border-box;
-}
-
-*::after,
-*::before {
-	box-sizing: inherit;
-}
-
-.container {
-	margin: 0 auto;
-	width: 876px;
-}
-
-hr {
-	margin-bottom: 35px;
-}
-
-.thin-br {
-	border-top: 1px solid black;
-}
-
-.pad {
-	padding-top: 30px;
-}
-
-p {
-	line-height: 1.1em;
-}
-
-/** end globals **/
-
-header {
-	background-color: cornsilk;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	/* margin-top: 20px; */
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	padding: 35px;
-	width: 876px;
-}
-
-header nav {
-	display: flex;
-	justify-content: space-evenly;
-	/** center items in nav box  with great idea logo **/
-	align-items: center;
-
-}
-
-header nav a {
-	margin-left: 35px;
-	color: slategray;
-}
-
-a {
-	text-decoration: none;
-}
-
-main {
-	margin-top: 150px;
-}
-
-.logo {
-	margin-left: 85px;
-	/* hack still working on getting right other ways. */
-	vertical-align: text-bottom;
-}
-
-.main-focus {
-	padding: 60px;
-}
-
-.font {
-	font-size: 70px;
-	text-align: center;
-}
-
-.btn {
-	border: 2px solid black;
-	padding: 5px 30px;
-	background-color: white;
-	margin-left: 80px;
-}
-
-.btn:hover {
-	background-color: black;
-	color: white;
-}
-
-section {
-	display: flex;
-	/* align-content: space-between; */
-}
-
-.top-section {
-	padding-bottom: 70px;
-	/** section flex item **/
-	align-items: center;
-	justify-content: space-around;
-}
-
-
-
-.info {
-	padding: 0 10px;
-}
-
-.middle-img {
-	margin: 45px 0;
-}
-
-.bottom-content {
-	padding-bottom: 30px;
-}
-
-.copy {
-	padding-bottom: 120px;
-	margin-top: 60px;
-	text-align: center;
-}
-
-address {
-	/* stretch goal*/
-	font-family: 'Merriweather', serif;
-}
-
-address p {
-	line-height: 1.4em;
-}
-
-address a {
-	color: black;
-}
-
-/****** services.html *******/
-
-.services {
-	flex-direction: column;
-	border-bottom: 1px solid black;
-	padding: 35px 0;
-}
-
-.services h2 {
-	font-size: 28px;
-}
-
-/***  services boxes design and layout ***/
-.services-descriptions {
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-
-	padding-top: 40px;
-}
-
-.service-box {
-	/* border: 1px solid black; */
-	background-color: #F4F3F4;
-	margin-bottom: 40px;
-	padding: 25px;
-	width: 48%;
-}
-
-.service-box button.cta {
-	background-color: #FFFFFF;
-	border: 1px solid black;
-	border-radius: 5px;
-	font-size: 12px;
-	margin: 25px 0 0;
-	padding: 8px 35px;
-}
-
-button.cta:hover {
-	background-color: black;
-	color: white;
-}
-
-.bottom-section {
-	border-top: 2px solid black;
-	padding-top: 40px;
-	justify-content: space-between;
-}
-
-.facts {
-	width: 50%;
-}
-
-ul {
-	padding-top: 15px;
-	padding-left: 17px;
-}
-
-li {
-	list-style-type: square;
-	line-height: 1.6em;
-}
